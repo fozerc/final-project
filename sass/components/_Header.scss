@@ -1,0 +1,133 @@
+.header{
+    .header_logo{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style: none;
+        justify-content: center;
+        background-color: var(--bg-header-color);
+        li:nth-child(-n+2){
+            position: relative;
+        }
+    }
+}
+
+.header{
+    .header_logo{
+        li:nth-child(1){
+            top: 0px;
+            bottom: 0px;
+            right: -10px;
+        }
+    }
+}
+
+.header{
+    .header_logo{
+        li:nth-child(2){           
+            bottom: -6px;
+            right: 10px;
+        }
+    }
+}
+
+.navigation_container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--bg-sec-header-color);
+    .navigation{
+        align-items: center;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+            padding-left: 15px;
+        }
+    }
+    
+}
+
+.header{
+    .header_logo{
+        li:nth-child(3){
+            justify-content: center;
+        }
+    }
+}
+
+
+.navigation_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.information{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        display: flex;
+        align-items: center;
+        span{
+            margin-left: 4px;
+        }
+}
+}
+
+.information{
+    li{
+        span:nth-child(-n+2){
+            position: relative;
+        }
+    }
+}
+
+.information{
+    li{
+        span:first-child{
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            top: 0px;
+        }
+    }
+}
+
+
+.information{
+    li{
+        span:last-child{
+        left: -12px;
+        top: 8px;
+        }
+    }
+}
+
+.social_media{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.second_navigation_container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ul{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap:wrap;
+        display: flex;
+        list-style: none;
+        li:last-child{
+            margin-right: 290px;
+        }
+        li:first-child{
+            margin-left: 200px;
+        }
+    }
+}

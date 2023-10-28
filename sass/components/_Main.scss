@@ -1,0 +1,43 @@
+.background{
+    background-color: var(--background-main-color);
+    display: flex;
+    flex-wrap: wrap;
+    section:nth-child(-n+3){
+        position: relative;
+}
+    section:first-child{
+        bottom: 120px;
+        left: 150px;
+    }
+    section:nth-child(2){
+        left: 500px;
+        bottom: 50px;
+    }
+
+    
+}
+
+.present{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        position: relative;
+    }
+
+    ul:first-child{
+        bottom: 800px;
+        left: 150px;
+    }
+
+    ul:last-child{
+        bottom: 600px;
+        li{
+            display: flex;
+        }
+    }
+}
